@@ -1,0 +1,29 @@
+page {
+    background: white;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button_container {
+    margin-top: 600rpx;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .camera {
+    width: 500rpx;
+    height: 500rpx;
+    margin-top: 40rpx;
+  }
+  
+  .button {
+    margin-top: 300rpx;
+    width: 100rpx;
+    height: 60rpx;
+    background: forestgreen;
+    color: white;
+  }

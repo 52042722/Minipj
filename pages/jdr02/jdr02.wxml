@@ -1,0 +1,24 @@
+
+<view class="add_carimg">
+    <block>
+        <view class='pages'>
+            <view class="images_box">
+                <block wx:key="imgbox" wx:for="{{imgbox}}">
+                    <view class='img-box'>
+                        <image class='img' src='{{item}}' data-message="{{item}}" bindtap="imgYu"></image>
+                    </view>
+                </block>
+                <view class='img-box' bindtap='addPic1' wx:if="{{imgbox.length<1}}">
+                    <image class='img' src='/pages/images/load_image.png'></image>
+                </view>
+            </view>
+        </view>
+    </block>
+</view>
+<text class="jdrcp_text">点击上传图片，搜索结果展示：</text>
+
+<view class='imgList'>      
+  <view class='imgList-li' wx:key="key" wx:for='{{imgArr}}'>
+    <image class='img' src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+  </view>
+</view>

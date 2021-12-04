@@ -1,0 +1,99 @@
+
+.work_btn {
+    width: 60%;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 30rpx;
+    color: white;
+    background-color: rgb(2, 218, 247);
+  }
+   
+  .work_btn:active {
+    width: 60%;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 30rpx;
+    color: white;
+    background-color: rgb(151, 222, 231);
+  }
+   
+   
+   
+   
+   
+   
+  /*********/
+   
+  .load_iamge {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+   
+  .load_head_text {
+    width: 95%;
+    height: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+   
+  }
+   
+  .load_foot_text {
+    width: 5%;
+    height: 20px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: right;
+   
+  }
+   
+  .pages {
+    width: 98%;
+    margin: auto;
+    overflow: hidden;
+  }
+   
+  /* 图片 */
+  .images_box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: white;
+  }
+   
+  .img-box {
+    border: 2rpx;
+    border-style: solid;
+    border-color: rgba(170, 167, 167, 0.452);
+    width: 200rpx;
+    height: 200rpx;
+    margin-left: 35rpx;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    position: relative;
+  }
+   
+  /* 删除图片 */
+  .img-delect {
+    width: 50rpx;
+    height: 50rpx;
+    border-radius: 50%;
+    position: absolute;
+    right: -20rpx;
+    top: -20rpx;
+  }
+   
+  .img {
+    width: 100%;
+    height: 100%;
+  }

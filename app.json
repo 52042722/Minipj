@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/jdr02/jdr02",
+    "pages/jdr01/jdr01",
+    "pages/request/request",
+    "pages/jdrrq/jdrrq",
+    "pages/index/index"
+  ],     
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "嘉德瑞",
+    "navigationBarTextStyle":"black"   
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/jdr02/jdr02",
+        "text": "首页",
+        "iconPath": "/pages/images/home.png",
+        "selectedIconPath": "/pages/images/home1.png"
+      },  
+      {
+        "pagePath": "pages/jdr01/jdr01",
+        "text": "分类",
+        "iconPath": "/pages/images/fenlei.png",
+        "selectedIconPath": "/pages/images/fenlei1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "联系我们",
+        "iconPath": "/pages/images/lxwm.png",
+        "selectedIconPath": "/pages/images/lxwm1.png"
+      }
+    ]
+  },
+  
+
+    "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,9 @@
+  <view class="container">
+      <camera
+        class="camera"
+        device-position="back"
+        flash="off"
+        binderror="error"
+      ></camera>
+      <button class="button"bindtap="recognition">图像搜索 </button>
+    </view>

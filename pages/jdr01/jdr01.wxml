@@ -1,0 +1,31 @@
+
+<loading hidden="{{loadingHidden}}">
+    加载中...
+</loading>
+
+<view class="add_carimg">
+    <block>
+        
+        <view class='pages'>
+            <view class="images_box">
+                <block wx:key="imgbox" wx:for="{{imgbox}}">
+                    <view class='img-box'>
+                        <image class='img' src='{{item}}' data-message="{{item}}" bindtap="imgYu"></image>
+                        <view class='img-delect' data-deindex='{{index}}' bindtap='imgDelete1'>
+                            <image class='img' src='/pages/images/delete_btn.png'></image>
+                        </view>
+                    </view>
+                </block>
+                <view class='img-box' bindtap='addPic1' wx:if="{{imgbox.length<2}}">
+                    <image class='img' src='/pages/images/load_image.png'></image>
+                </view>
+            </view>
+        </view>
+    </block>
+</view>
+<view>
+    <button class="work_btn" bindtap="shanggang">上岗</button>
+</view>
+
+
+  
